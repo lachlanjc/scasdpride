@@ -1,5 +1,5 @@
-# Blink
+# LGBTA Alliance
 
-Website for Blink.
+Website for the State College Area High School LGBTA Alliance.
 
-https://blinkcare.github.io
+https://scasdpride.github.io
