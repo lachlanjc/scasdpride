@@ -1,0 +1,23 @@
+{
+  "name": "scasdpride.github.io",
+  "version": "0.0.1",
+  "description": "Website",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "author": "Lachlan Campbell",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "cxs": "^5.1.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "styled-system": "^1.0.0-15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scasdpride/scasdpride.github.io.git"
+  }
+}
