@@ -10,7 +10,7 @@ import SubmitButton from './SubmitButton'
 const Submit = () => (
   <section id="submit">
     <Heading>Sign up for updates</Heading>
-    <form action="https://formspree.io/ljc14+pride@scasd.org" method="POST">
+    <form action="https://formspree.io/smb11@scasd.org" method="POST">
       <Label>
         Name
         <Input type="text" name="name" placeholder="Your Name" />
