@@ -13,7 +13,8 @@ const Footer = () => (
   <footer>
     <Bar />
     <Text mb={1}>
-      Made by <Link href="https://lachlanjc.me" children="@lachlanjc" />, 2017.
+      Made by <Link href="https://lachlanjc.me" children="@lachlanjc" />{', '}
+      {new Date().getFullYear()}.
     </Text>
     <SourceLink href={data.repo} children="&lt;Source /&gt;" />
   </footer>

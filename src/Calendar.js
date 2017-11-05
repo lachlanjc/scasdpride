@@ -19,13 +19,12 @@ const Background = cxs(Flex)(props => ({
 const Month = cxs(Box)(props => ({
   backgroundColor: props.theme('colors.red'),
   color: props.theme('colors.white'),
-  fontSize: 16,
-  lineHeight: '1.75'
+  fontSize: 16
 }))
 
 const Day = cxs(Box)(props => ({
   fontSize: 48,
-  lineHeight: '1.375'
+  lineHeight: '1.25'
 }))
 
 const Calendar = ({ month, day }) => (

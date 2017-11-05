@@ -6,7 +6,7 @@ const EmailButton = cxs('a')(props => ({
   color: props.theme('colors.white'),
   backgroundColor: props.theme('colors.orange'),
   borderRadius: 4,
-  boxShadow: '0 0 8px rgba(0, 0, 0, .25)',
+  boxShadow: '0 0 8px rgba(0,0,0,.25)',
   lineHeight: '1.5',
   textDecoration: 'none',
   paddingTop: props.theme.space[1],

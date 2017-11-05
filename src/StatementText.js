@@ -3,11 +3,10 @@ import colors from './colors'
 import Text from './Text'
 
 const StatementText = cxs(Text)(props => ({
-  backgroundColor: colors.snow,
+  backgroundColor: '#fffae5',
+  border: '1px solid #ecc542',
   padding: props.theme.space[3],
-  borderRadius: 8,
-  fontStyle: 'italic',
-  lineHeight: '1.5',
+  borderRadius: 6,
   textAlign: 'left',
   marginLeft: -props.theme.space[3],
   marginRight: -props.theme.space[3]

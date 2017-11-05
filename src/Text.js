@@ -7,7 +7,7 @@ const Text = cxs('p')(
   props => ({
     marginTop: props.my || props.mt || 0,
     marginBottom: props.my || props.mb || 0,
-    lineHeight: '1.6'
+    lineHeight: '1.5'
   }),
   space,
   width,

@@ -9,9 +9,12 @@ const colors = require('./src/colors')
 const App = require('./src/App').default
 
 const cx = cxs({
-  fontFamily: '"Avenir Next", Roboto, "Segoe UI", "Helvetica Neue", sans-serif',
+  backgroundImage: 'linear-gradient(105deg, #D3555C, #D3555C 16%, #F48D3A 16%, #F48D3A 32%, #FDC753 32%, #FDC753 48%, #70BC53 48%, #70BC53 64%, #249CD5 64%, #249CD5 80%, #9D61A4 80%, #9D61A4 100%)',
   color: colors.black,
-  lineHeight: '1.5'
+  fontFamily: '"Fakt Soft", Avenir, Roboto, "Segoe UI", "Helvetica Neue", sans-serif',
+  lineHeight: '1.5',
+  paddingTop: 32,
+  paddingBottom: 32
 })
 
 const body = renderToStaticMarkup(h(App))
@@ -31,9 +34,12 @@ const template = ({ body, id, css }) => `<!DOCTYPE html>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <meta name='theme-color' content='${colors.blue}'>
 <style>*{box-sizing:border-box}body{margin:0}${css}</style>
-<div id='${id}' class='${cx}'>
+<link rel='stylesheet' href='fonts.css'>
+<body class='${cx}'>
+<div id='${id}'>
 ${body}
 </div>
+</body>
 `
 
 const html = template({ body, css, id: 'app' })
