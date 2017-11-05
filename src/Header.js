@@ -25,7 +25,7 @@ const Header = () => (
     <Title>{data.name}</Title>
     <Description>{data.description} All are welcome!</Description>
     <Flex justify="center" align="center" mt={4}>
-      <Calendar month="October" day={11} />
+      <Calendar month="November" day={8} />
       <Left ml={[3, 4]}>
         <Text f={3} bold style={{ lineHeight: '1.25' }}>
           Next meeting
