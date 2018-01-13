@@ -25,12 +25,12 @@ const Header = () => (
     <Title>{data.name}</Title>
     <Description>{data.description} All are welcome!</Description>
     <Flex justify="center" align="center" mt={4}>
-      <Calendar month="November" day={8} />
+      <Calendar month="Jan" day={23} />
       <Left ml={[3, 4]}>
         <Text f={3} bold style={{ lineHeight: '1.25' }}>
           Next meeting
         </Text>
-        <Text mb={2}>68N, 3:30–4:30pm</Text>
+        <Text mb={2}>C122, 3:30–4:30pm</Text>
         <EmailButton href="mailto:smb11@scasd.org" children="Questions?" />
       </Left>
     </Flex>
